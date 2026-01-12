@@ -6,6 +6,11 @@ namespace CalculatorApp.Tests
     public class CalculatorTests
     {
         [Fact]
+        public void CItriggertest()
+        {
+            Console.WriteLine("CI trigger test");
+        }
+        [Fact]
         public void Add_TwoNumbers_ReturnsSum()
         {
             // Arrange
